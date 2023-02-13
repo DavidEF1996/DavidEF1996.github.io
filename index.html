@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrellitas Creativas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+        </style>
+</head>
+<body>
+
+  <header class="header">
+        <div class="contenedor contenido-header">
+            <h1 style="font-family: 'Comic Neue', cursive;text-align: center;
+            "><span style="color:rgb(237, 149, 33)">ESCUELA DE EDUCACIÓN PARTICULAR </span> <span style="color:rgb(50, 178, 202)">BÁSICA "ESTRELLITAS CREATIVAS"</span></h1>
+
+        </div>
+
+    </header>
+
+
+
+    <div class="video">
+        <div class="overlay" >
+          <div style="
+          margin-top: 175px;
+   
+          background-color: rgb(149, 40, 40, 0.5);
+          width: 100%; z-index: 100; display: flex; justify-content: center; 
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
+            <h1 class="ml15 text-intro" style="  padding: 20px;font-family: 'Comic Neue';">
+                <span class="word" style="color: rgb(102, 255, 0);">NO OLVIDES </span>
+                <span class="word" style="color: yellow;">TRAER TU CARIOCA DE CARNAVAL</span>
+              </h1>
+          </div>
+            <div style="display: flex; justify-content: center; width: 100%; z-index: 100;">
+                <div class="boton" style="background-color: rgb(173, 255, 47, 0.5);border: 2px solid rgb(173, 255, 47);
+                border-radius: 20px;padding: 5px; color: blue;font-family: 'Comic Neue';margin-top: 20px;" onclick="play()" >TOCA PARA ESCUCHAR LA CANCIÓN</div>
+            </div>
+        </div>
+     <div style="display: flex;
+     justify-content: center; align-items: center;">
+        <video autoplay  muted loop >
+            <source src="video/vacalola.mp4" type="video/mp4">
+        </video>
+     </div>
+    </div>
+    
+
+
+    <section class="contenedor" style=" border-radius: 10px;">
+        
+               <div class="ml6" style="width: 100%; display: flex;justify-content: center; text-align: center;">
+                <div class="text-wrapper">
+                  <p class="letters"  style="color: brown;
+                  width: 100%; 
+                  text-align: center; 
+                  background-color: 
+                  transparent;
+                  font-size: 65px;
+                  font-family: 'Comic Neue';
+                  font-weight: bold;
+                  padding: 10px;
+                  text-shadow: 2px 2px #33834e">
+                  
+                    "<span style="color: yellow !important;">PINTORESCO</span>
+                   <span style="color: blue !important;">DÍA DE </span><span style="color: red;">    DIVERSIÓN"</span>
+                </p>
+              
+            </div>
+    </section>
+ 
+   
+    <section class="contenedor sobre-festival" id="content" >
+        <div class="imagen" style="display: flex; justify-content: center; align-items: center; ">
+            <picture style="border: 10px solid yellow;">
+        
+                <img loading="lazy" width="200" height="300" src="src/img/teesperamos.jpeg" alt="imagen vocalista">
+            </picture>
+        </div>
+        <div class="contenido-festival" style="font-family: 'Comic Neue', cursive;">
+  
+          <div class="grids">
+            <p class="fecha">TE ESPERAMOS:</p>
+            <p class="respuesta">8H00 am - 11H00 am </p>
+          </div>
+
+          <p style="width:100% ;font-size: 25px; text-align: center;" class="fecha">LO QUE HAREMOS</p>
+            
+           <div  class="grids">
+            <p class="fecha">PASARELA DE MÁSCARAS:</p>
+            <p class="respuesta">DESTELLOS DE CARNAVAL</p>
+           </div>
+
+           <div  class="grids">
+            <p class="fecha">ELECCIÓN DE:</p>
+            <p class="respuesta">PRINCESA Y PRÍNCIPE DE CARNAVAL</p>
+           </div>
+
+           <div  class="grids">
+            <p class="fecha">CIRCUITOS DE JUEGO:</p>
+            <p class="respuesta">CARNAVAL PINTORESCO</p>
+           </div>
+        </div>
+    </section>
+
+
+    
+
+    <footer class="site-footer" style="display: flex; justify-content: space-between; align-items: center; padding: 0 1rem;">
+        <p style="font-family: 'Comic Neue';font-weight: bold; font-size: 25px;">ESTRELLITAS CREATIVAS</p>
+        <div style="width: 170px;">
+            <img src="src/img/logofinal.png" alt="">
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="build/js/app.js"></script>
+</body>
+</html>
